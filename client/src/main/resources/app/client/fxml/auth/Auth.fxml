@@ -17,7 +17,7 @@
          <children>
             <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../media/chat-logo.png" />
+                  <Image url="@../../media/logo.png" />
                </image>
             </ImageView>
             <Text fill="#f0f0f0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Chizgram" textAlignment="CENTER" wrappingWidth="428.7294921875">
@@ -33,16 +33,16 @@
             </Text>
          </children>
       </HBox>
-      <VBox layoutX="427.0" layoutY="387.0" spacing="20.0">
+      <VBox layoutX="450.0" layoutY="387.0" spacing="20.0" AnchorPane.topAnchor="385.0">
          <children>
-            <Label alignment="CENTER" onMouseClicked="#handleLoginButton" prefHeight="50.0" prefWidth="350.0" styleClass="lbl" text="Login">
+            <Label fx:id="lbl_login" alignment="CENTER" onMouseClicked="#handleLoginButton" prefHeight="50.0" prefWidth="300.0" styleClass="lbl" text="Login">
                <font>
-                  <Font name="Dyuthi Regular" size="25.0" />
+                  <Font name="Dyuthi Regular" size="19.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" onMouseClicked="#handleRegisterButton" prefHeight="50.0" prefWidth="350.0" styleClass="lbl" text="Register">
+            <Label alignment="CENTER" onMouseClicked="#handleRegisterButton" prefHeight="50.0" prefWidth="300.0" styleClass="lbl" text="Register">
                <font>
-                  <Font name="Dyuthi Regular" size="25.0" />
+                  <Font name="Dyuthi Regular" size="19.0" />
                </font>
             </Label>
          </children>

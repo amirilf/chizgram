@@ -2,11 +2,8 @@
     -fx-background-color: linear-gradient(to bottom, #22c1c3 0%, #2d91fd 100%);
 }
 
-/* Label styles */
 .lbl {
-    -fx-font-size: 16px;
     -fx-text-fill: white;
-    -fx-padding: 10px 20px;
     -fx-background-color: rgba(0, 0, 0, 0.3);
     -fx-background-radius: 10px;
     -fx-border-color: white;
@@ -15,8 +12,7 @@
     -fx-alignment: center;
 }
 
-/* Hover effect */
 .lbl:hover {
     -fx-background-color: rgba(0, 0, 0, 0.5);
-    -fx-cursor: hand; /* Changes cursor to hand when hovered */
+    -fx-cursor: hand;
 }
