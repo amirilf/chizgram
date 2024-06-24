@@ -12,11 +12,14 @@
 }
 
 
-/* ======================== */
-
 .room-item{
     -fx-background-color: white !important;
 
+}
+
+.room-item:hover{
+    -fx-background-color: rgb(200, 200, 200) !important;
+    -fx-cursor: hand;
 }
 
 .main-vbox{
@@ -24,6 +27,8 @@
 
 }
 
+
+/* Scroll pane! */
 .scroll-pane * {
     -fx-background-color: transparent;
 

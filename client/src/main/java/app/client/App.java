@@ -9,10 +9,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class App extends Application {
+    @SuppressWarnings("exports")
     @Override
     public void start(Stage stage) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/app/client/fxml/auth/Login.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/app/client/fxml/panel/Base.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
             stage.setScene(scene);
