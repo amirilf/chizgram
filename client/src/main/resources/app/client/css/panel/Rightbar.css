@@ -1,0 +1,4 @@
+* {
+    -fx-background-color: linear-gradient(to bottom, #bec322 0%, #fd952d 100%);
+    -fx-background-radius: 10px
+}
