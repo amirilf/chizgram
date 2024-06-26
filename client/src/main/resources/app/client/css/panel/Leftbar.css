@@ -1,3 +1,5 @@
+@import url("../partials/scrollbar.css");
+
 .main {
     -fx-background-color: #24A1DE;
     -fx-background-radius: 10px
@@ -12,11 +14,14 @@
 }
 
 
-/* ======================== */
-
 .room-item{
     -fx-background-color: white !important;
 
+}
+
+.room-item:hover{
+    -fx-background-color: rgb(200, 200, 200) !important;
+    -fx-cursor: hand;
 }
 
 .main-vbox{
@@ -33,27 +38,4 @@
     -fx-background-color: transparent;
 }
 
-.scroll-pane .scroll-bar:vertical {
-    -fx-background-color:transparent;
-}
 
-.scroll-pane .scroll-bar:vertical .increment-button,
-.scroll-pane .scroll-bar:vertical .decrement-button {
-    -fx-padding: 0;
-    -fx-max-width: 0;
-    -fx-max-height: 0;
-    -fx-opacity: 0;
-}
-
-.scroll-pane .scroll-bar:vertical .track {
-    -fx-background-color: transparent;
-}
-
-.scroll-pane .scroll-bar:vertical .thumb {
-    -fx-background-color: #888;
-    -fx-background-radius: 10px;
- }
-
-.scroll-pane .scroll-bar:vertical .thumb:hover {
-    -fx-background-color: #555;
-}
