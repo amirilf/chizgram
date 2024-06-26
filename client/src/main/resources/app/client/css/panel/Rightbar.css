@@ -1,4 +1,82 @@
-* {
-    -fx-background-color: linear-gradient(to bottom, #bec322 0%, #fd952d 100%);
+@import url("../partials/scrollbar.css");
+
+
+.main {
+    -fx-background-color: #24A1DE;
     -fx-background-radius: 10px
+}
+
+* {
+    -fx-background-radius: 10px;
+}
+
+
+.btn-delete{
+    -fx-background-color: rgb(233, 133, 133);
+}
+
+.btn-members{
+    -fx-background-color: rgb(158, 233, 133);
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.btn_send:hover {
+    -fx-opacity: 0.3;
+}
+
+
+/* ================== top right buttons */
+.btn-delete {
+    -fx-background-color: rgb(233, 133, 133);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: darkred;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+}
+
+.btn-delete:hover {
+    -fx-background-color: rgb(255, 99, 99);
+}
+
+.btn-delete:pressed {
+    -fx-background-color: rgb(255, 66, 66);
+    -fx-border-color: red;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 1);
+}
+
+.btn-members {
+    -fx-background-color: rgb(158, 233, 133);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: darkgreen;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+}
+
+.btn-members:hover {
+    -fx-background-color: rgb(128, 233, 100);
+}
+
+.btn-members:pressed {
+    -fx-background-color: rgb(98, 233, 66);
+    -fx-border-color: green;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 1);
+}
+
+
+/* ================== messages */
+
+.message-bubble-sent {
+    -fx-background-color: #93fb93;
+}
+
+.message-bubble-received{
+    -fx-background-color: #cccccc;
 }
