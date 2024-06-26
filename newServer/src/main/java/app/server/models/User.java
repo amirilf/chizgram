@@ -13,14 +13,20 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
-    private int id;
     private String userName;
     private String password;
     private String name;
     private String phoneNumber;
     private String profile;
     private String bio;
-    private Date lastSeen;
+    private LocalDate lastSeen;
     private LocalDate dateJoined;
+
+    public User(String userName,String password,String name,String phoneNumber){
+        this.userName = userName;
+        this.password = password;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+    }
 
 }
